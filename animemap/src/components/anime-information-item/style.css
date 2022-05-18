@@ -1,0 +1,72 @@
+body{
+    background-color: #13141B;
+}
+.imagem{
+    position: relative;
+    width: 200px;
+}
+
+.container_anime_item{
+    width: 22%;
+    padding-bottom: 5%; /* Same as width, sets height */
+    margin-bottom: 1%; /* (100-32*3)/2 */
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imagem_img{
+    display: block;
+    width: 200px;
+    height: 250px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.imagem_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.25s;
+    margin-left: 25px;
+    
+}
+
+.imagem_overlay span{
+    color: white;
+}
+
+.imagem_overlay > *{
+    transform: translateY(-20px);
+    transition: transform 0.25s;
+}
+
+.imagem_overlay:hover{
+    opacity: 1;
+}
+
+.imagem_overlay:hover > *{
+    transform: translateY(0);
+}
+
+.imagem_title{
+    font-size: 2em;
+    font-weight: bold;
+
+}
+
+.imagem_descricao{
+    font-size: 1em;
+    margin-top: 0.25em;
+}

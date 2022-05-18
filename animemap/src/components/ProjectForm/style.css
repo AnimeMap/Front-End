@@ -1,0 +1,39 @@
+.form{
+    width: 100%;
+    margin: 2em 0;
+    color: white;
+}
+.form_control_select{
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+    background: white;
+    font-weight: 600px;
+    width: 450px;
+}
+p{
+    font-weight: bold;
+}
+.btn {
+    background-color: #01E59B;
+    color: #222;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+    font-weight: bold;
+    border-radius: 16px;
+}
+
+.btn_desativado{
+    background-color: #01e59d3f;
+    color: #222;
+    padding: 0.7em 1.2em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+    font-weight: bold;
+    border-radius: 16px;
+}

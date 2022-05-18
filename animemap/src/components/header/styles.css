@@ -1,0 +1,65 @@
+::-webkit-scrollbar-thumb {
+    background: #01E59B;
+    border-radius: 10%;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+    background: #000000;
+    
+}
+body{
+    color: #13141B;
+}
+.header{
+    overflow:auto;
+    border-bottom: solid 3px #fff;
+    background-color: #13141B;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: solid 3px #01e59d62;
+}
+.header h1{
+    color: #01E59B;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-style: normal;
+    padding-top: 5px;
+    padding-left: 40px;
+
+}
+.container_header{
+    width: 100%;
+    margin: auto;
+    border-style: solid 10px;
+}
+.navbar{
+    float: right;
+    list-style: none;
+    padding-right: 100px;
+    
+}
+.titulo{
+    float: left;
+    margin: 0;
+}
+.navbar li{
+    float: left;
+    margin-left: 10px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+.header .navbar li:hover{
+    color: #01E59B;
+    cursor: pointer;
+}
+span{
+    color: white;
+}
+.now{
+    color: #01E59B;
+}
